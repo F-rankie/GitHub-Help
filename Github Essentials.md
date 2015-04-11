@@ -39,9 +39,9 @@ To "clone", in Git lingo, means to copy a repository from the GitHub server to t
 * via the command line and the **git clone** command, see -> Git Shell
 * via your browser when logged in at http://www.github.com
 
-## X. Workflow to add a new master repository on GitHub
+## 5. Workflow to add a new (master) repository on (my) GitHub
 
-This assumes an **already existing** local project with an existing README.md and one or more .R scripts (e.g. **MyProject.R**).
+### 5.1 Workflow for an **already existing** local project with an existing README.md and one or more .R scripts (e.g. **MyProject.R**).
 
 1.  Login at http://www.github.com
 2.  Add new repository (click on the "+" button next to the user name) - e.g. **MyNewRepository**
@@ -64,6 +64,21 @@ git push -u origin master
 ```
 Now you have the master repository on the github server, and everything is synched (**README.md** and **MyProject.R**).
 If you have a 'good' **.gitignore** file in the project directory (telling git which files to ignore), you may use **git add -A** (for **A**ll files) instead of adding each file individually.
+
+### 5.2 Workflow to create a new repository from scratch
+
+1.  Add a new master repository using the web interface (accessing https://github.com/F-rankie/...
+2.  Use button "Clone to Desktop" (lower right), choose appropriate directory, a subdirectory will be created
+3.  
+
+### 5.3 Workflow to fork a (foreign) repository to my GitHub account, and then add my own files to it
+
+1.  abcd
+2.  **efgh**
+3.  ijkl *(to follow)*
+
+Example: Module 4 of Data Science Specialization (@coursera), Project 1 (plot1.R to plot4.R, plot1.png to plot4.png)
+
 
 ## 8. Deleting a repository
 
