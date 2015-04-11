@@ -68,23 +68,30 @@ If you have a 'good' **.gitignore** file in the project directory (telling git w
 ### 5.2 Workflow to create a new repository from scratch
 
 1.  Add a new master repository using the web interface (accessing https://github.com/F-rankie/...
-2.  Use button "Clone to Desktop" (lower right), choose appropriate directory, a subdirectory will be created
-3.  
+2.  Use a short name and a more lengthy description. The description will appear in the README.MD file.
+3.  Keep the "generate README.MD" file ticked (selected)
+4.  Once the repository has been generated (with nothing but the README.MD in it), use button "Clone to Desktop" (lower right). Choose appropriate directory (..\github) - a subdirectory for this new repository will be newly created on the local machine
+5.  Open the (PC desktop) GitHub client (GitHub for Windows), and navigate to the new repository (just created in steps 1 and 2 of this description)
+6.  Right-click on the repository (left side of the GitHub window) and select "Open with Explorer"
+7.  Copy or newly generate whatever files you require for this repository (on the local machine)
+8.  go back to the locally running GitHub client
+9.  *to be continued*
 
 ### 5.3 Workflow to fork a (foreign) repository to my GitHub account, and then add my own files to it
 
-1.  abcd
-2.  **efgh**
-3.  ijkl *(to follow)*
+1.  The quick brown fox ...
+2.  *to be continued*
 
-Example: Module 4 of Data Science Specialization (@coursera), Project 1 (plot1.R to plot4.R, plot1.png to plot4.png)
+**Example:** Module 4 of Data Science Specialization (@coursera), Project 1 (plot1.R to plot4.R, plot1.png to plot4.png)
 
 
-## 8. Deleting a repository
+## 7. Deleting a repository
 
 This can be done via **Settings** from within the to-be-deleted repository. The **Delete** function is inside the **Danger Zone**. Be aware of the consequences! 
 
 Deleting a local fork of somebody else's public repository does of course **NOT** delete that public repository.
+
+## 8. GitHub for Windows (GitHub PC client)
 
 ## 9. Git Shell
 
